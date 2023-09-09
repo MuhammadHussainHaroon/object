@@ -112,7 +112,7 @@ const phones = [
 ]
 
 for(i = 0; i < phones.length; i++){
-    body.innerHTML +=`<div style="border-radius: 20px; gap:10;">
+    div.innerHTML +=`<div style="border-radius: 20px; gap:10; margin-top: 40px; margin-left: 40px;  background-color: #eecea7; ">
 <h2>brand ${phones[i].brand}</h2>
     <img src="${phones[i].img}" alt="${phones[i].brand} ${phones[i].model} img" width=200px height=200px><p>model ${phones[i].model}</p><p>ram ${phones[i].ram}gb</p>
     <p>rom ${phones[i].rom}gb</p><p>camera ${phones[i].camera}</p><button>add cart</button></div>`

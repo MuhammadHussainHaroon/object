@@ -1,10 +1,27 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+h2{
+    padding-left: 12px;
+}
+
 p{
     padding-left: 12px;
 }
-body{
+.divv{
     display: flex;
-    background-color: #253c9b;
-    gap: 40px;
+    background-color: #f85606;
+    gap: 60px;
+    flex-wrap: wrap;
+
 }
 button{
     border-radius: 6px;
@@ -15,5 +32,4 @@ img{
     overflow: hidden;
     border-radius: 6px;
 }
-
     
