@@ -1,0 +1,19 @@
+p{
+    padding-left: 12px;
+}
+body{
+    display: flex;
+    background-color: #253c9b;
+    gap: 40px;
+}
+button{
+    border-radius: 6px;
+    background-color: brown;
+    margin-left: 12px;
+}
+img{
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+    
